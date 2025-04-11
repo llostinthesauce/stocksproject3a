@@ -1,0 +1,100 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.menu {
+    width: 100%;
+    background-color: #1e1e2f;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu a {
+    color: #61dafb;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.div-container {
+    width: 90%;
+    max-width: 1000px;
+    background-color: #1e1e2f;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-top: 30px;
+}
+
+h1 {
+    color: #61dafb;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 15px;
+    color: #e0e0e0;
+}
+
+input, select {
+    background-color: #2a2a3b;
+    color: #ffffff;
+    border: 1px solid #444;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"], button, a.button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+button:hover,
+a.button:hover {
+    background-color: #0056b3;
+}
+
+.flash.error {
+    background-color: #ff4d4f;
+    color: white;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border: 2px solid #61dafb;
+    border-radius: 8px;
+}
+
+.chart-container svg {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border: 2px solid #61dafb;
+    border-radius: 8px;
+}
